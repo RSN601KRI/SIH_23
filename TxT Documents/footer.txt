@@ -1,0 +1,26 @@
+<footer>
+        <div class="footer">
+            <div class="whatsapp flexbox1">
+                <a href="#" class="contact1"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/whatsapp--v1.png" alt="whatsapp--v1" /></a>
+            </div>
+
+            <div class="instagram flexbox1">
+                <a href="#" class="contact2"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1" /></a>
+            </div>
+            <div class="telegram flexbox1">
+                <a href="#" class="contact3"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/telegram.png" alt="telegram" /></a>
+            </div>
+            <div class="mails flexbox1">
+                <a href="mailto:learnwithpriyanshucse.com" class="contact4"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/mail.png" alt="mail" /></a>
+            </div>
+            <div class="call flexbox1">
+                <a href="tel:+916204482220" class="contact5"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone" /></a>
+            </div>
+        </div>
+        <p>This website is under maintainance and has all rights are reserved. &copy;</p>
+    </footer>

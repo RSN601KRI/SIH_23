@@ -1,0 +1,24 @@
+/* header box */
+.header {
+    text-align: center;
+    padding: 8px;
+}
+
+.home-ico {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.home-ico {
+    width: 45px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    padding: 3px;
+    font-weight: 600;
+}

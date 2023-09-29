@@ -1,0 +1,17 @@
+ <header>
+        <div class="header flexbox">
+            <div class="home-icon">
+                <a href="/Index/index.html"><img class="home-ico" src="/Media/save.png" alt="home-icon"></a>
+            </div>
+
+            <div class="navbar">
+                <nav>
+                    <div class="navigation flexbox">
+                        <a href="" class="nav-container1">लॉग इन</a>
+                        <a href="" class="nav-container2">सामुदायिक मंच</a>
+                        <a href="" class="nav-container3">संपर्क समर्थन</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>

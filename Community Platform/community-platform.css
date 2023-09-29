@@ -1,0 +1,61 @@
+/* for body css */
+body {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3439;
+    /*background picked from google color picker*/
+    color: #ced9bf;
+}
+
+/* universal css selector */
+* {
+    text-decoration: none;
+    color: #ced9bf;
+    /*to universally for all hyper-links*/
+}
+
+.post-head{
+    font-size: 25px;
+    font-weight: 600;
+}
+.form{
+    text-align: center;
+    background-color: grey;
+    height: 300px;
+    margin: 0px 10px;
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+
+.text-box{
+    height: 100px;
+    width: 300px;
+    padding: 3px;
+    color: black;
+    border: 0;
+    background-color: #dbd6cb;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.post-btn{
+    background-color: #e9944a;
+    color: #f5f5da;
+    border: 0;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.post-btn:hover{
+    background-color: #e86e1a;
+    color: #0b0e16;
+}
+
+/* footer */
+.footer{
+    padding-top: 20px;
+}

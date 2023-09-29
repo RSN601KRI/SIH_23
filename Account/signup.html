@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/navbar.css"> <!--linking stylesheet for navigation bar-->
+    <link rel="stylesheet" href="/footer.css"> <!--linking stylesheet for footer-->
+    <link rel="stylesheet" href="/placeholder.css"> <!--linking stylesheet for placeholders-->
+    <link rel="stylesheet" href="/Account/signup.css"> <!--linking stylesheet for signup page-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+        rel="stylesheet">
+    <title>कृषि सारथी - पादप रोग का पता लगाना | Krishi Sarthi - Plant Disease Detection | Online Help Portal For Farmers
+        | किसानों के लिए ऑनलाइन
+        सहायता पोर्टल</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header flexbox">
+            <div class="home-icon">
+                <a href="/Index/index.html"><img class="home-ico" src="/Media/save.png" alt="home-icon"></a>
+            </div>
+
+            <div class="navbar">
+                <nav>
+                    <div class="navigation flexbox">
+                        <a href="/Account/signin.html" class="nav-container1">लॉग इन</a>
+                        <a href="" class="nav-container2">सामुदायिक मंच</a>
+                        <a href="" class="nav-container3">संपर्क समर्थन</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="form">
+        <p class="center accnt">
+            खाता बनाएँ
+        </p>
+        <form action="./student.sql" method="post">
+            <div class="form-content">
+                <input class="form-inputs" type="text" name="name" id="name" placeholder="तुम्हारा नाम" required maxlength="15">
+                <input class="form-inputs" type="tel" name="phone" id="phone" required placeholder="मोबाइल नंबर" maxlength="10">
+                <input class="form-inputs" type="email" name="email" id="email" placeholder="ईमेल ( वैकल्पिक )">
+                <input type="submit" value="Sign Up" class="sign-btn">
+            </div>
+        </form>
+
+        <p class="center">पहले से ही एक खाता है? <span class="signin"><a href="/Account/signin.html">Sign In</a></span></p>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="whatsapp flexbox1">
+                <a href="#" class="contact1"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/whatsapp--v1.png" alt="whatsapp--v1" /></a>
+            </div>
+
+            <div class="instagram flexbox1">
+                <a href="#" class="contact2"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1" /></a>
+            </div>
+            <div class="telegram flexbox1">
+                <a href="#" class="contact3"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/telegram.png" alt="telegram" /></a>
+            </div>
+            <div class="mails flexbox1">
+                <a href="mailto:learnwithpriyanshucse.com" class="contact4"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/mail.png" alt="mail" /></a>
+            </div>
+            <div class="call flexbox1">
+                <a href="tel:+916204482220" class="contact5"><img width="50" height="50"
+                        src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone" /></a>
+            </div>
+        </div>
+        <p>This website is under maintainance and has all rights are reserved. &copy;</p>
+    </footer>
+</body>
+
+</html>

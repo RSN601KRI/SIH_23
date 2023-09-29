@@ -1,0 +1,26 @@
+>> for dark theme.
+
+background : #2c3439.
+font : #ced9bf.
+
+>> for light theme.
+
+background : #dbd6cb
+font : #171717
+
+----for buttons primary ( sign in's / sign up's ) then secondary ( sign up's / sign in's )
+primary background color : #1d7948
+primary color : #ddea90
+primary button hover background : #3b8457
+primary color hover : #f3b73e
+
+secondary background color : #b94429
+secondary color : #fdda7d
+secondary button hover background : #e14842
+secondary color hover : #f7bb2e
+
+>> community page post button's
+background : #e9944a
+color : #f5f5da
+background : hover : #e86e1a
+color : hover : #0b0e16
